@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    
+}
+
+footer .instagram, .facebook, .youtube {
+    margin: 0px 5px 0px 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    background-color: #925032;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+footer a i {
+    background-color: transparent;
+    color: #a27960;
+    align-self: center;
+}

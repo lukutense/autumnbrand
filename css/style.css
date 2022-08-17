@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 3px solid #925032;
+  margin-left: 20px;
+  background-color: transparent;
+  height: 100px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: #383c31;
+}
+
+.logo-container {
+  margin: 0 2rem 2rem 0;
+  color: #383c31;
+  font-weight: 400;
+}
+
+:root {
+  --content: "DON'T MISS YOUR SEASONAL OFFERS";
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+}
+
+.left-circle {
+  width: 400px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(45px);
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  position: relative;
+}
+
+.left-circle::before {
+  content: "";
+  border: 3px solid #ae6a4a;
+  border-radius: 50%;
+  width: 394px;
+  height: 394px;
+  display: block;
+  position: absolute;
+}
+
+.texto-circular span {
+  position: absolute;
+  text-align: center;
+  left: 70%;
+  top: 0;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  transform-origin: bottom center;
+  font-size: 12px;
+}
+
+#estrella::before {
+  content: var(--content);
+  background-image: url(../estrella.png);
+  color: transparent;
+  height: 64px;
+  width: 64px;
+  display: block;
+  position: absolute;
+  top: 6%;
+  left: 70%;
+  z-index: 2;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #383c31;
+  border: none;
+  transform: translateY(30px);
+  padding-left: 12px;
+}
+
+.shop i {
+  background-color: transparent;
+  margin-left: 1rem;
+}
+
+.title {
+  background-color: transparent;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.subtitle {
+  background-color: transparent;
+  text-align: center;
+  transform: translateY(10px);
+}
+
+.right-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background-color: #383c31;
+  transform: translateX(-45px);
+}
+
+#img {
+  position: relative;
+  align-self: center;
+  background-color: transparent;
+}
+
+.description-container {
+  width: 80px;
+  align-self: flex-start;
+  transform: translateX(-140px);
+  background-color: transparent;
+}
+
+hr {
+  width: 300px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #925032;
+  border: none;
+}
+
+.description-container p {
+  text-align: justify;
+  font-size: 11px;
+  align-self: flex-start;
+  background-color: transparent;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+footer .instagram, .facebook, .youtube {
+  margin: 0px 5px 0px 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-color: #925032;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+footer a i {
+  background-color: transparent;
+  color: #a27960;
+  align-self: center;
+}
+
+* {
+  background-color: #a27960;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 3px solid #925032;
+    margin-left: 20px;
+    background-color: transparent;
+    height: 100px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color:#383c31;
+}
+
+.logo-container{
+    margin: 0 2rem 2rem 0;
+    color:#383c31;
+    font-weight: 400;
+}

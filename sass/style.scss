@@ -1,0 +1,14 @@
+@use 'nav';
+@use 'main';
+@use 'footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    background-color: #a27960;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+}
+

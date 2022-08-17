@@ -1,0 +1,132 @@
+:root{
+    --content : "DON'T MISS YOUR SEASONAL OFFERS";
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+}
+
+.left-circle{
+    width: 400px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(45px);
+    z-index: 1;
+    color: #fff;
+    background-color: transparent;
+    position: relative;
+}
+
+.left-circle::before{
+    content: '';
+    border: 3px solid #ae6a4a;
+    border-radius: 50%;
+    width: 394px;
+    height: 394px;
+    display: block;
+    position: absolute;
+}
+
+.texto-circular span{
+    position: absolute;
+    text-align: center;
+    left: 70%;
+    top: 0;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    transform-origin: bottom center;
+    font-size: 12px;
+}
+
+#estrella::before{
+    content: var(--content);
+    background-image: url(../estrella.png);
+    color: transparent;
+    height: 64px;
+    width: 64px;
+    display: block;
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    z-index: 2;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #383c31;
+    border: none;
+    transform: translateY(30px);
+    padding-left: 12px;
+}
+
+.shop i {
+    background-color: transparent;
+    margin-left: 1rem;
+}
+
+.title {
+    background-color: transparent;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subtitle{
+    background-color: transparent;
+    text-align: center;
+    transform: translateY(10px);
+}
+
+.right-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background-color: #383c31;
+    transform: translateX(-45px);
+}
+
+#img {
+    position: relative;
+    align-self: center;
+    background-color: transparent;
+}
+
+.description-container{
+    width: 80px;
+    align-self: flex-start;
+    transform: translateX(-140px);
+    background-color: transparent;
+}
+
+hr{
+    width: 300px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #925032;
+    border: none;
+}
+
+.description-container p {
+    text-align: justify;
+    font-size: 11px;
+    align-self: flex-start;
+    background-color: transparent;
+    color: #fff;
+}
+
